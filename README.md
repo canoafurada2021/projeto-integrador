@@ -13,3 +13,6 @@ Este é o repositório de códigos fonte base para desenvolvimendo do projeto in
 ## <span style="color:purple">:memo: INTRODUÇÃO</span>
 
 O presente projeto propõe o desenvolvimento de um software para a compra e venda de carros. Tal sistema possuirá duas aplicações, uma para desktop com a aba de funcionário e proprietário e outra para mobile com a aba de cliente. Em geral, no sistema poderão ser cadastrados clientes, vendedores e um proprietário, tendo cada um deles as suas respectivas interfaces específicas para manuseio. Para o cliente, será possível visualizar as opções de carros à venda e uma prévia do valor final de sua compra. Já para o vendedor, será disponibilizado o controle de suas vendas e de estoque, o cadastro de clientes e produtos e um cálculo automático de suas comissões por venda. Além disso, ele poderá também analisar o perfil de cada cliente e entrar em contato com este, via whatsapp. Por fim, o proprietário terá acesso a, além de todas as funções do sistema, um relatório de vendas de determinado vendedor realizados por período e poderá cadastrar ou remover seus vendedores.
+
+
+💻 PRINCIPAIS TELAS
