@@ -9,34 +9,39 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="675.0" style="-fx-background-color: #0000CD;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fitHeight="464.0" fitWidth="269.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@a1754fe7952721f74d5fd2dd565f5013.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="360.0" layoutY="77.0" prefHeight="24.0" prefWidth="206.0" text="Olá, faça o seu login!">
+      <Label layoutX="360.0" layoutY="77.0" prefHeight="24.0" prefWidth="206.0" text="Olá, faça o seu login!" textFill="#7da5ef">
          <font>
             <Font name="Segoe UI Bold" size="20.0" />
          </font>
       </Label>
       <TextField layoutX="361.0" layoutY="176.0" />
       <TextField layoutX="361.0" layoutY="232.0" />
-      <Button fx:id="btnLogin" layoutX="360.0" layoutY="316.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" text="Login" textAlignment="CENTER">
+      <Button fx:id="btnLogin" layoutX="360.0" layoutY="316.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="150.0" style="-fx-background-color: #add8e6;" text="Login" textAlignment="CENTER" textFill="#0c1bb9">
          <font>
-            <Font name="Segoe UI" size="16.0" />
+            <Font name="Segoe UI Semibold" size="13.0" />
          </font>
       </Button>
-      <Label layoutX="360.0" layoutY="149.0" text="Usuário ">
+      <Label layoutX="360.0" layoutY="149.0" text="Usuário " textFill="#4ab1e4">
          <font>
             <Font name="Segoe UI" size="13.0" />
          </font>
       </Label>
-      <Label layoutX="360.0" layoutY="215.0" text="Senha">
+      <Label layoutX="360.0" layoutY="215.0" text="Senha" textFill="#5fb6f4">
          <font>
             <Font name="Segoe UI" size="13.0" />
          </font>
       </Label>
+      <ImageView fitHeight="124.0" fitWidth="130.0" layoutX="68.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@carro-azulescuro.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
