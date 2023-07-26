@@ -15,8 +15,9 @@ public class Main extends Application {
 			primaryStage.setTitle("Login");
 			primaryStage.resizableProperty().setValue(Boolean.FALSE);
 			
+
 			// carregar arquivo da tela scenebuilder
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("visao/telaLogin.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("/visao/telaLogin.fxml"));
 			Parent arquivoXML = loader.load();
 			
 			
