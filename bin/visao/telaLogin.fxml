@@ -8,7 +8,10 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="pnlLog" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="675.0" style="-fx-background-color: #0000CD;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controle.LogControle">
+<AnchorPane fx:id="pnlLog" id="meuAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="675.0" style="-fx-background-color: #0000CD;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controle.LogControle">
+    <stylesheets>
+    @../visao/estilos.css
+    </stylesheets>
    <children>
       <ImageView fitHeight="464.0" fitWidth="269.0" pickOnBounds="true" preserveRatio="true">
          <image>

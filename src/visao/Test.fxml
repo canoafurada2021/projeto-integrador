@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="panePrincipal" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #4169E1;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Avatar layoutX="250.0" layoutY="224.0" scaleX="9.0" scaleY="9.0" scaleZ="5.0" style="-fx-background-image: green;" translateX="5.0">
+         <image>
+            <Image url="@../../../../../../Imagens/IMG_2127.JPG" />
+         </image>
+      </Avatar>
+   </children>
+</AnchorPane>
